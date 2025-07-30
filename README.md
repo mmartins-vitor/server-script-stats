@@ -13,11 +13,16 @@ You are required to write a script 'server-stats.sh' that can analyse basic serv
 ## como executar
 
 ### no terminal 
+
+```bash
 docker run -it -v "$(pwd):/app" -w /app ubuntu bash
+```
 
 ### executando com make
-make setup
 
+```bash
+make setup
+```
 ## Explicação do Script
 
 O script `server-stats.sh` é dividido em seções para analisar diferentes aspectos do servidor.
